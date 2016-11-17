@@ -1,0 +1,36 @@
+@import "vars";
+nav {
+  a {
+    color: rgba(255,255,255,0.8);
+    &:hover {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+  background: $bg_nav_color;
+  border-bottom: solid $border_nav_color 1px;
+  ul
+  {
+    li {
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    list-style-type: none;
+  }}
+}
+
+nav {
+  .row {
+    padding: 5px 15px 5px 15px;
+    div {
+    float: left;
+  }}}
+
+
+#logo {
+  font-family: "Harlow Solid", sans-serif;
+  font-size: 20pt;
+  color: $bg;
+}
